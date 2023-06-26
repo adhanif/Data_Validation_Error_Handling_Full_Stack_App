@@ -3,4 +3,4 @@ const connectionString = process.env.CONNECTION_STRING;
 const pool = new Pool({
   connectionString,
 });
-module.exports = connectionString;
+module.exports = pool;
