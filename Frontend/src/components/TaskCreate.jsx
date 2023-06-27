@@ -29,7 +29,7 @@ export default function TaskCreate() {
       .post(url, data)
       .then(() => {
         notify();
-        // reset();
+        reset();
       })
       .catch((err) => {
         notifyError();
